@@ -14,5 +14,11 @@ public class Main {
 
         int myMaxIntTest = 214_748_367; 
         // valid but not used oftern above 
+
+        short myMinShortValue = Short.MIN_VALUE; 
+        short myMaxShortValue = Short.MAX_VALUE; 
+
+        System.out.println("Short Min Value = " + myMinShortValue); 
+        System.out.println("Short Max Value = " + myMaxShortValue);
     }
 }
