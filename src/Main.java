@@ -51,7 +51,7 @@ public class Main {
 
         int challengeInt = 1000000; 
 
-        long challengeLong = 50000 + (10 * (challengeByte + challengeShort + challengeInt)); 
+        long challengeLong = 50000L + 10L * (challengeByte + challengeShort + challengeInt); 
 
         System.out.println(challengeLong); 
     }
